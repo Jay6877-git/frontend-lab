@@ -1,0 +1,78 @@
+body{
+    background: linear-gradient(-45deg, #35577D, #141E30);
+    margin: 0;
+    padding: 0;
+}
+
+.author img{
+    height: 50px;
+    float: left;
+    box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+}
+
+.author h3{
+    float: left;
+    padding-left: 10px;
+    font-family: Helvetica;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+}
+
+.content{
+    padding: 40px;
+}
+
+h1.title{
+    width: 100%;
+    padding-top: 100px;
+    font-family: Georgia;
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+h2{
+    color: rgba(255, 255, 255, 0.5);
+    border-bottom: 2px solid gray;
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 24px;
+    padding-bottom: 30px;
+    width: 70%;
+    text-align: left;
+    font-family: Georgia;
+}
+
+article p{
+    color: aliceblue;
+    line-height: 1.3em;
+    text-align: left;
+    width: 100%;
+    font-family: Helvetica;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.footer{
+    background-image: url("../image/htmlcss1-img_soccer.webp");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+.footer p{
+    display: block;
+    background-color: #fff;
+    font-family: 'Playfair Display', serif;
+    width: 60%;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 14px;
+    margin-left: 20px;
+    padding: 10px;
+    top: 80%;
+    position: relative;
+    color: black;
+    opacity: 0.75;
+}
