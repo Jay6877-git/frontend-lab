@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Result Summary</title>
 </head>
 <body>
@@ -10,37 +14,47 @@
         <div class="result">
             <h2 class="heading">Your Result</h2>
             <div class="total">
-                <p class="overall-marks">76</p>
-                <p>of 100</p>
+                <div class="socre">
+                     <p class="overall-marks">76</p>
+                    <p>of 100</p>
+                </div>   
             </div>
             <h1>Great</h1>
             <p>You scored higher than 65% of the people who have taken these tests.</p>
         </div>
-        <div class="Summary">
+        <div class="summary">
             <h2>Summary</h2>
             <div class="category reaction">
-                <img src="./images/icon-reaction.svg" alt="">
+                <div class="label">
+                    <img src="./images/icon-reaction.svg" alt="">
                 <h3>Reaction</h3>
+                </div>
                 <p><span>80</span> / 100</p>
             </div>
             <div class="category memory">
-                <img src="./images/icon-memory.svg" alt="">
+                <div class="label">
+                    <img src="./images/icon-memory.svg" alt="">
                 <h3>Memory</h3>
+                </div>
                 <p><span>92</span> / 100</p>
             </div>
             <div class="category verbal">
-                <img src="./images/icon-verbal.svg" alt="">
+                <div class="label">
+                    <img src="./images/icon-verbal.svg" alt="">
                 <h3>Verbal</h3>
+                </div>
                 <p><span>61</span> / 100</p>
             </div>
             <div class="category visual">
-                <img src="./images/icon-visual.svg" alt="">
+                <div class="label">
+                    <img src="./images/icon-visual.svg" alt="">
                 <h3>Visual</h3>
+                </div>
                 <p><span>73</span> / 100</p>
             </div>
-            <div class="button">
-                <p>Continue</p>
-            </div>
+            <button class="button">
+                Continue
+            </button>
         </div>
     </div>
 </body>
