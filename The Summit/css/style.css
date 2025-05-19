@@ -33,6 +33,7 @@ p{
 
 a{
     text-decoration: none;
+    cursor: pointer;
 }
 
 ul{
@@ -145,4 +146,61 @@ ul{
 .discription{
     display: inline-block;
     width: 70%;
+}
+
+.activities-panel{
+  margin-bottom: 40px;
+  padding: 80px 0px;
+  text-align: center;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.activities-panel h2{
+  width: 100vw;
+}
+.activity{
+  background-color: #2176FF;
+  box-sizing: border-box;
+  width: 240px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: 'Amatic SC',sans-serif;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 5px;
+}
+.footer{
+  background-color: #2176FF;
+  padding: 30px;
+  text-align: center;
+}
+.footer h2{
+  color: #ffffff;
+  font-family: 'Raleway',sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+activity {
+  border: 1px solid #2176FF;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.activity:hover {
+  background-color: #fff;
+  color: #5495ff;
+  transition: color .1s ease-in, background-color .1s ease-in;
+}
+
+.activity:active {
+  font-size: 40px;
+  transition: font-size .1s;
 }
