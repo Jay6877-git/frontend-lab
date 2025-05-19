@@ -5,6 +5,32 @@ body{
     padding:0px;
 }
 
+h1{
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin: 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2{
+  color: #2176FF;
+  font-family: 'Amatic SC',sans-serif;
+  font-size: 30px;
+  margin: 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p{
+  color: #000000;
+  font-size: 18px;
+  line-height: 42px;
+  text-align: left;
+}
+
 a{
     text-decoration: none;
 }
@@ -71,16 +97,7 @@ ul{
     top: 250px;
 }
 
-h1{
-  color: #ffffff;
-  font-family: 'Raleway',sans-serif;
-  font-size: 60px;
-  font-weight: 100;
-  letter-spacing: 2px;
-  margin: 0px;
-  text-align: center;
-  text-transform: uppercase;
-}
+
 
 .summit{
     color: #2176FF;
@@ -111,4 +128,21 @@ h1{
 .btn:active{
     font-size: 18px;
     transition: font-size .1s ease-in-out;
+}
+
+.content{
+    background-image: url(../images/mountain1.webp);
+    background-position: center top;
+    background-size: cover;
+    border-bottom: 1px solid #eeeeee;
+    margin: 0 auto;
+    overflow-y: auto;
+    padding: 80px 0px;
+    position: relative;
+    text-align: center;
+}
+
+.discription{
+    display: inline-block;
+    width: 70%;
 }
